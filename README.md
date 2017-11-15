@@ -65,4 +65,7 @@ Source code for `K & R`
     - Otherwise, convert char and short to int.
     - Then, if either operand is long, convert the other to long.
     
-2. 
+2. Since an argument of a function call is an expression, type conversion also takes place when arguments are passed to functions.
+
+### 2.8 Increment and Decrement Operators
+
