@@ -105,3 +105,11 @@ Source code for `K & R`
 2. Braces { and } are used to group declarations and statements together into a compound statement, or block, so that they are syntactically equivalent to a single statement. There is no semicolon after the right brace that ends a block.
 
 ### 3.2 If-Else
+
+### 3.3 Else-If
+
+### 3.4 Switch
+
+### 3.5 Loops - While and For
+
+### 3.6 Loops - Do-While
