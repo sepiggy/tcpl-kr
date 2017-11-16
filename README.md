@@ -113,3 +113,7 @@ Source code for `K & R`
 ### 3.5 Loops - While and For
 
 ### 3.6 Loops - Do-While
+
+### 3.7 Break and Continue
+
+### 3.8 Goto and labels
