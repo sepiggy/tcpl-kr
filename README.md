@@ -68,4 +68,31 @@ Source code for `K & R`
 2. Since an argument of a function call is an expression, type conversion also takes place when arguments are passed to functions.
 
 ### 2.8 Increment and Decrement Operators
+1. C provides six operators for bit manipulation; these may only be applied to integral operands, that is, char, short, int, and long, whether signed or unsigned.
+    - `&` bitwise AND
+    - `|` bitwise inclusive OR
+    - `^` bitwise exclusive OR
+    - `<<` left shift
+    - `>>` right shift
+    - `~` one's complement(unary)
+    
+### 2.9 Bitwise Operators
+
+### 2.10 Assignment Operators and Expressions
+1. We have already seen that the assignment statement has a value and can occur in expressions; the most common example is
+    ```cpp
+    while ((c = getchar()) != EOF)
+    ```
+    In all such expressions, the type of an assignment expression is the type of its left operand, and the value is the value after the assignment.
+    
+### 2.11 Conditional Expressions
+1. In the expression `expr1 ? expr2 : expr3`, the expression expr 1 is evaluated first. If it is non-zero (true), then the expression expr 2 is evaluated, and that is the value of the conditional expression. Otherwise expr 3 is evaluated, and that is the value. Only one of expr 2 and expr 3 is evaluated.
+
+### 2.12 Precedence and Order of Evaluation
+1. Function calls, nested assignment statements, and increment and decrement operators cause `side effects` - some variable is changed as a by-product of the evaluation of an expression.
+
+2. The moral is that writing code that depends on order of evaluation is a bad programming practice in any language. Naturally, it is necessary to know what things to avoid, but if you don't know how they are done on various machines, you won't be tempted to take advantage of a particular implementation.
+
+## 3. Control Flow
+### 3.1 Statements and Blocks
 
