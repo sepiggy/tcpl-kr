@@ -95,4 +95,13 @@ Source code for `K & R`
 
 ## 3. Control Flow
 ### 3.1 Statements and Blocks
+1. An expression such as `x=0` or `i++` or `printf(...)` becomes a statement when it is followed by a semicolon, as in
+    ```cpp
+    x = 0;
+    i++;
+    printf(...);
+    ```
+    
+2. Braces { and } are used to group declarations and statements together into a compound statement, or block, so that they are syntactically equivalent to a single statement. There is no semicolon after the right brace that ends a block.
 
+### 3.2 If-Else
