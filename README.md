@@ -117,3 +117,8 @@ Source code for `K & R`
 ### 3.7 Break and Continue
 
 ### 3.8 Goto and labels
+
+## 4. Functions and Program Structure
+
+### 4.1 Basics of Functions
+1. A program is just a set of definitions of variables and functions. Communication between the functions is by arguments and values returned by the functions, and through external variables. The functions can occur in any order in the source file, and the source program can be split into multiple files, so long as no function is split.
