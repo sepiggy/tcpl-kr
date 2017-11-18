@@ -1,4 +1,4 @@
-Source code for `K & R`
+Demos for [K & R](https://book.douban.com/subject/1236999/)
 ## Chapter 2 - Types, Operators and Expressions
 ### 2.1 Variable Names
 ### 2.2 Data Types and Sizes
@@ -122,3 +122,28 @@ Source code for `K & R`
 
 ### 4.1 Basics of Functions
 1. A program is just a set of definitions of variables and functions. Communication between the functions is by arguments and values returned by the functions, and through external variables. The functions can occur in any order in the source file, and the source program can be split into multiple files, so long as no function is split.
+
+### 4.2 Functions Returning Non-integers
+
+### 4.3 External Variables
+
+### 4.4 Scope Rules
+
+### 4.5 Header Files
+
+### 4.6 Static Variables
+
+### 4.7 Register Variables
+
+### 4.8 Block Structure
+
+### 4.9 Initialization
+1. In the absence of explicit initialization, external and static variables are guaranteed to be initialized to zero; automatic and register variables have undefined (i.e., garbage) initial values.
+
+2. For external and static variables, the initializer must be a constant expression; the initialization is done once, conceptionally before the program begins execution. For automatic and register variables, the initializer is not restricted to being a constant: it may be any expression involving previously defined values, even function calls.
+
+### 4.10 Recursion
+1. When a function calls itself recursively, each invocation gets a fresh set of all the automatic variables, independent of the previous set.
+
+### 4.11 The C Preprocessor
+
