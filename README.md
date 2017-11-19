@@ -1,5 +1,5 @@
 Demos for [K & R](https://book.douban.com/subject/1236999/)
-## Chapter 2 - Types, Operators and Expressions
+## 2 Types, Operators and Expressions
 ### 2.1 Variable Names
 ### 2.2 Data Types and Sizes
 1. Data Types
@@ -93,7 +93,7 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 
 2. The moral is that writing code that depends on order of evaluation is a bad programming practice in any language. Naturally, it is necessary to know what things to avoid, but if you don't know how they are done on various machines, you won't be tempted to take advantage of a particular implementation.
 
-## 3. Control Flow
+## 3 Control Flow
 ### 3.1 Statements and Blocks
 1. An expression such as `x=0` or `i++` or `printf(...)` becomes a statement when it is followed by a semicolon, as in
     ```cpp
@@ -118,7 +118,7 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 
 ### 3.8 Goto and labels
 
-## 4. Functions and Program Structure
+## 4 Functions and Program Structure
 
 ### 4.1 Basics of Functions
 1. A program is just a set of definitions of variables and functions. Communication between the functions is by arguments and values returned by the functions, and through external variables. The functions can occur in any order in the source file, and the source program can be split into multiple files, so long as no function is split.
@@ -147,3 +147,10 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 
 ### 4.11 The C Preprocessor
 
+## 5 Pointers and Arrays
+### 5.1 Pointers and Addresses
+1. A pointer is a variable that contains the address of a variable.
+
+2. The & operator only applies to objects in memory: variables and array elements. It cannot be applied to expressions, constants, or register variables.
+
+3. The unary operator * is the indirection or dereferencing operator; when applied to a pointer, it accesses the object the pointer points to.
