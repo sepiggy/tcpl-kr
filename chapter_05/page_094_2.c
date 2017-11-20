@@ -1,25 +1,18 @@
 #include <stdio.h>
 
-void strcpy(char *s, char *t);
+void mystrcpy(char *, char *);
 
 int main() {
-    char t[] = "Hello world 123!";
+    char *t = "Hello k&r";
     char s[100];
 
-    strcpy(s, t);
+    mystrcpy(s, t);
     printf("%s", s);
     return 0;
 }
 
 /* strcpy: copy t to s; pointer version */
-void strcpy(char *s, char *t) {
-    int i;
-
-    i = 0;
-    while ((*s = *t) != '\0') {
-        s++;
-        t++;
-    }
-    return;
+void mystrcpy(char *s, char *t) {
+    while (*s++ = *t++);
 }
 

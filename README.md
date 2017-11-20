@@ -186,3 +186,10 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 7. The valid pointer operations are assignment of pointers of the same type, adding or subtracting a pointer and an integer, subtracting or comparing two pointers to members of the same array, and assigning or comparing to zero.
 
 ### 5.5 Character Pointers and Functions
+1. A string constant, written as `"I am a string"` is an array of characters. In the internal representation, the array is terminated with the null character '\0' so that programs can find the end. The length in storage is thus one more than the number of characters between the double quotes.
+
+2. A string constant is accessed by a pointer to its first element.
+
+3. C does not provide any operators for processing an entire string of characters as a unit.
+
+4. The pair of expressions `*p++ = val;` and `val = *--p` are the standard idiom for pushing and popping a stack.
