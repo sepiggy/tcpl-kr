@@ -154,3 +154,19 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 2. The & operator only applies to objects in memory: variables and array elements. It cannot be applied to expressions, constants, or register variables.
 
 3. The unary operator * is the indirection or dereferencing operator; when applied to a pointer, it accesses the object the pointer points to.
+
+### 5.2 Pointers and Function Arguments
+
+### 5.3 Pointers and Arrays
+1. Any operation that can be achieved by array subscripting can also be done with pointers. The pointer version will in general be faster but, at least to the uninitiated, somewhat harder to understand.
+
+2. If pa points to a particular element of an array, then by definition pa+1 points to the next element, pa+i points i elements after pa, and pa-i points i elements before.
+
+3. If a is an array, pa points to a[0],  pa+i is the address of a[i], and *(pa+i) is the contents of a[i].
+
+4. An array-and-index expression is equivalent to one written as a pointer and offset.
+
+5. There is one difference between an array name and a pointer that must be kept in mind. A pointer is a variable, so pa=a and pa++ are legal. But an array name is not a variable; constructions like a=pa and a++ are illegal.
+
+6. If one is sure that the elements exist, it is also possible to index backwards in an array; p[-1], p[-2], and so on are syntactically legal, and refer to the elements that immediately precede p[0]. Of course, it is illegal to refer to objects that are not within the array bounds.
+
