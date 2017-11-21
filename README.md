@@ -193,3 +193,6 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 3. C does not provide any operators for processing an entire string of characters as a unit.
 
 4. The pair of expressions `*p++ = val;` and `val = *--p` are the standard idiom for pushing and popping a stack.
+
+### 5.6 Pointer Arrays; Pointers to Pointers
+1. Since pointers are variables themselves, they can be stored in arrays just as other variables can.
