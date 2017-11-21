@@ -207,3 +207,10 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 4. More generally, only the first dimension (subscript) of an array is free; all the others have to be specified. 
 
 5. The difference between `int (*daytab)[13]` and `int *daytab[13]`
+
+### 5.8 Initialization of Pointer Arrays
+
+### 5.9 Pointers vs. Multi-dimensional Arrays
+
+### 5.10 Command-line Arguments 
+
