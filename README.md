@@ -214,3 +214,6 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 
 ### 5.10 Command-line Arguments 
 
+### 5.11 Pointers to Functions
+
+## 6 Structures
