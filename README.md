@@ -196,3 +196,14 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 
 ### 5.6 Pointer Arrays; Pointers to Pointers
 1. Since pointers are variables themselves, they can be stored in arrays just as other variables can.
+
+### 5.7 Multi-dimensional Arrays
+1. In C, a two-dimensional array is really a one-dimensional array, each of whose elements is an array. 
+
+2. Elements are stored by rows, so the rightmost subscript, or column, varies fastest as elements are accessed in storage order. 
+
+3. `f(int daytab[2][13]){...}` is equivalent to `f(int daytab[][13]){...}` and `f(int (*daytab)[13]){...}`
+
+4. More generally, only the first dimension (subscript) of an array is free; all the others have to be specified. 
+
+5. The difference between `int (*daytab)[13]` and `int *daytab[13]`
