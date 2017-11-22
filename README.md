@@ -231,3 +231,8 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 3. If a large structure is to be passed to a function, it is generally more efficient to pass a pointer than to copy the whole structure. Structure pointers are just like pointers to ordinary variables. 
 
 4. The structure operators . and ->, together with () for function calls and [] for subscripts, are at the top of the precedence hierarchy and thus bind very tightly.
+
+### 6.3 Arrays of Structures
+
+### 6.4 
+

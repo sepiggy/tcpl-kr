@@ -3,8 +3,8 @@
 
 #define BUFSIZE 100
 
-char buf[BUFSIZE];  /* 用于ungetch函数的缓冲区*/
-int bufp = 0;   /* buf中下一个空闲位置 */
+char buf[BUFSIZE];  /* 用于 ungetch 函数的缓冲区*/
+int bufp = 0;   /* buf 中下一个空闲位置 */
 
 int getch(void);
 
@@ -21,7 +21,7 @@ int main(void) {
 }
 
 /* 取字符函数, 取一个字符 (可能是压回的字符) */
-int getch(void) {
+int getch() {
     return (bufp > 0) ? buf[--bufp] : getchar();
 }
 
@@ -31,7 +31,6 @@ void ungetch(int c) {
         printf("ungetch: too many characters\n");
     else
         buf[bufp++] = c;
-    return;
 }
 
 /* getint函数: 将输入中的下一个整型数赋值给*pn */
