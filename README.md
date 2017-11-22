@@ -217,3 +217,5 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 ### 5.11 Pointers to Functions
 
 ## 6 Structures
+### 6.1 Basics of Structures
+1. A structure member or tag and an ordinary (i.e., non-member) variable can have the same name without conflict, since they can always be distinguished by context. 
