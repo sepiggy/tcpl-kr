@@ -219,3 +219,15 @@ Demos for [K & R](https://book.douban.com/subject/1236999/)
 ## 6 Structures
 ### 6.1 Basics of Structures
 1. A structure member or tag and an ordinary (i.e., non-member) variable can have the same name without conflict, since they can always be distinguished by context. 
+
+### 6.2 Structures and Functions
+1. The only legal operations on a structure are copying it or assigning to it as a unit, taking its address with &, and accessing its members. Copy and assignment include passing arguments to functions and returning values from functions as well. 
+
+2. Pass structure to function as argument in 3 ways
+    - pass components separately
+    - pass an entire structure
+    - pass a pointer to a structure
+
+3. If a large structure is to be passed to a function, it is generally more efficient to pass a pointer than to copy the whole structure. Structure pointers are just like pointers to ordinary variables. 
+
+4. The structure operators . and ->, together with () for function calls and [] for subscripts, are at the top of the precedence hierarchy and thus bind very tightly.
